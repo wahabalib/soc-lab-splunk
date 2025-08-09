@@ -1,0 +1,17 @@
+# OS / tooling
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+**/.env
+**/var/
+**/etc/
+**/run/
+
+# Splunk volumes (if any were added later)
+*db/
+*thaweddb/
